@@ -1,0 +1,95 @@
+.resume {
+    height: 100%;
+}
+
+.timeline {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    gap: 2rem;
+
+    &_experience,
+    &_education {
+        width: 50%;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_heading {
+            display: inline-block;
+            color: var(--yellow-theme-subtext-color);
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.5rem;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-bottom: 2px solid var(--yellow-theme-main-color);
+        }
+
+        &_heading::before,
+        &_heading::after {
+            position: absolute;
+            content: "";
+            width: 2px;
+            height: 5px;
+            background: var(--yellow-theme-main-color);
+            bottom: -1px;
+        }
+
+        ;
+
+        &_heading::before {
+            left: 0;
+        }
+
+        ;
+
+        &_heading::after {
+            right: 0;
+        }
+
+        &_timelineElement {
+            padding: 0px 0px 30px 0px;
+
+            &:last-child {
+                padding-bottom: 0px;
+            }
+        }
+
+        .timelineElement_titleWrapper {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 16px;
+                margin: 8px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 786px) {
+    .timeline {
+        flex-direction: column;
+
+        &_experience,
+        &_education {
+            width: 100%;
+        }
+    }
+}
