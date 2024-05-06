@@ -90,9 +90,9 @@ const Portfolio = () => {
                                 onMouseLeave={()=>handleHover(null)}
                             >
                                 <div className='portfolio_content_cards_item_imgWrap'>
-                                    <a href='#'>
+                                    <div>
                                         <img src={item.image} alt="dummy data" />
-                                    </a>
+                                    </div>
                                     <div className='overlay'>
                                         {
                                             i===hoverValue && (
