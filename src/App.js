@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from 'tsparticles';
-import ParticlesDec from './utils/ParticlesDec';
 import Options from './utils/particleOptions';
 // import particleOptions from './utils/particleOptions';
 import Home from './containers/home';
