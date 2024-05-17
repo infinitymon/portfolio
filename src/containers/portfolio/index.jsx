@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 onMouseLeave={()=>handleHover(null)}
                             >
                                 <div className='portfolio_content_cards_item_imgWrap'>
-                                    <div>
+                                    <div className='portfolio_content_cards_item_imgWrap_screen'>
                                         <img src={item.image} alt="dummy data" />
                                     </div>
                                     <div className='overlay'>

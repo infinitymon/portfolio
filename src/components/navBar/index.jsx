@@ -21,10 +21,10 @@ const data = [
         label: 'SKILLS',
         to: '/skills'
     },
-    {
-        label: 'CONTACT',
-        to: '/contact'
-    },
+    // {
+    //     label: 'CONTACT',
+    //     to: '/contact'
+    // },
     {
         label: 'PORTFOLIO',
         to: '/portfolio'
