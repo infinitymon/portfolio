@@ -43,7 +43,7 @@ const Skills = () => {
                                                     <Line
                                                         percent={skillItem.percentage}
                                                         strokeWidth="4"
-                                                        strokeColor="var(--yellow-theme-main-color)"
+                                                        strokeColor="var(--blue-theme-main-color)"
                                                         trailWidth="4"
                                                         strokeLinecap='square'
                                                     />

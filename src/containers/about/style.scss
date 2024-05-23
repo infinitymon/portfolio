@@ -15,7 +15,7 @@
                 margin-bottom: 10px;
                 font-size: 2.5rem;
                 font-weight: 700;
-                color: var(--yellow-theme-main-color)
+                color: var(--blue-theme-main-color)
             }
 
             h3.personalDataHeader {
@@ -23,17 +23,17 @@
             }
 
             p {
-                color: var(--yellow-theme-subtext-color);
+                color: var(--black-text-color);
                 font-size: 1.6rem;
                 font-weight: 300;
                 line-height: 1.5;
                 padding-bottom: 20px;
-                border-bottom: 1px dashed var(--yellow-theme-main-color);
+                border-bottom: 1px dashed var(--blue-theme-main-color);
             }
 
             ul>li {
                 line-height: 1.5;
-                color: var(--yellow-theme-subtext-color);
+                color: var(--black-text-color);
                 font-size: 1.6rem;
                 font-weight: 300;
                 letter-spacing: 0.5px;
@@ -43,7 +43,7 @@
                 span.item,
                 span.value {
                     margin-right: 16px;
-                    border-bottom: 2px solid var(--yellow-theme-main-color);
+                    border-bottom: 2px solid var(--blue-theme-main-color);
                     position: relative;
                     display: inline-block;
 
@@ -65,10 +65,10 @@
             &_content {
                 width: 350px;
                 height: 350px;
-                background: radial-gradient(180px, var(--yellow-theme-main-color), transparent 90%);
+                background: radial-gradient(180px, var(--blue-theme-main-color), transparent 90%);
                 position: relative;
                 border-radius: 50%;
-                border: 1px solid var(--yellow-theme-main-color);
+                border: 1px solid var(--blue-theme-main-color);
                 animation: rotation 8s linear 1s infinite;
 
                 div:nth-child(1) {
@@ -125,7 +125,7 @@
             &_content{
                 width: 250px;
                 height: 250px;
-                background: radial-gradient(100px, var(--yellow-theme-main-color), transparent 120%);
+                background: radial-gradient(100px, var(--blue-theme-main-color), transparent 120%);
 
                 div:nth-child(1) {
                     position: absolute;

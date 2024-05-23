@@ -18,7 +18,7 @@
 
         &_heading {
             display: inline-block;
-            color: var(--yellow-theme-subtext-color);
+            color: var(--black-text-color);
             font-size: 22px;
             font-weight: 700;
             line-height: 1.5rem;
@@ -26,7 +26,7 @@
             position: relative;
             text-transform: uppercase;
             padding: 5px 10px;
-            border-bottom: 2px solid var(--yellow-theme-main-color);
+            border-bottom: 2px solid var(--blue-theme-main-color);
         }
 
         &_heading::before,
@@ -35,7 +35,7 @@
             content: "";
             width: 2px;
             height: 5px;
-            background: var(--yellow-theme-main-color);
+            background: var(--blue-theme-main-color);
             bottom: -1px;
         }
 

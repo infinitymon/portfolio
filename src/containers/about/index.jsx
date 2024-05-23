@@ -100,16 +100,16 @@ const About = () => {
                     >
                         <div className='about_content_services_content'>
                             <div>
-                                <FaDev size={60} color='var(--yellow-theme-main-color)' />
+                                <FaDev size={60} color='var(--blue-theme-main-color)' />
                             </div>
                             <div>
-                                <DiAndroid size={60} color='var(--yellow-theme-main-color)' />
+                                <DiAndroid size={60} color='var(--blue-theme-main-color)' />
                             </div>
                             <div>
-                                <FaDatabase size={60} color='var(--yellow-theme-main-color)' />
+                                <FaDatabase size={60} color='var(--blue-theme-main-color)' />
                             </div>
                             <div>
-                                <DiReact size={60} color='var(--yellow-theme-main-color)' />
+                                <DiReact size={60} color='var(--blue-theme-main-color)' />
                             </div>
                         </div>
                     </Animate>

@@ -23,7 +23,7 @@ export default function ParticlesDec () {
     () => ({
       background: {
         color: {
-          value: "#1d1d1d",
+          value: "#EBF5FE",
         },
       },
       fpsLimit: 120,
@@ -50,10 +50,10 @@ export default function ParticlesDec () {
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#1d1d1d",
         },
         links: {
-          color: "#ffffff",
+          color: "#1d1d1d",
           distance: 150,
           enable: true,
           opacity: 0.5,
@@ -82,7 +82,7 @@ export default function ParticlesDec () {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 2 },
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,

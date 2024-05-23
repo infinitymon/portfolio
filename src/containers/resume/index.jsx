@@ -21,7 +21,7 @@ const Resume = () => {
                     </h3>
                     <VerticalTimeline
                         layout={'1-column'}
-                        lineColor='var(--yellow-theme-main-color)'
+                        lineColor='var(--blue-theme-main-color)'
                     >
                         {
                             data.experience.map((item, i) => (
@@ -30,14 +30,15 @@ const Resume = () => {
                                     className='timeline_experience_timelineElement'
                                     contentStyle={{
                                         background: 'none',
-                                        color: 'var(--yellow-theme-subtext-color)',
-                                        border: '1.5px solid var(--yellow-theme-main-color)',
+                                        color: 'var(--black-text-color)',
+                                        border: '1.5px solid var(--blue-theme-main-color)',
                                         boxShadow: 'none'
                                     }}
                                     icon={<MdWork />}
                                     iconStyle={{
-                                        background: '#181818',
-                                        color: 'var(--yellow-theme-main-color)'
+                                        boxShadow:'0 0 0 4px #2770CC,inset 0 1px 0 rgba(0,0,0,.3),0 0 10px 5px rgba(0,0,0,.3)',
+                                        background: '#EBF5FE',
+                                        color: 'var(--blue-theme-main-color)'
                                     }}
                                     contentArrowStyle={{
                                         display: 'none'
@@ -61,7 +62,7 @@ const Resume = () => {
                     </h3>
                     <VerticalTimeline
                         layout={'1-column'}
-                        lineColor='var(--yellow-theme-main-color)'
+                        lineColor='var(--blue-theme-main-color)'
                     >
                         {
                             data.education.map((item, i) => (
@@ -70,14 +71,15 @@ const Resume = () => {
                                     className='timeline_experience_timelineElement'
                                     contentStyle={{
                                         background: 'none',
-                                        color: 'var(--yellow-theme-subtext-color)',
-                                        border: '1.5px solid var(--yellow-theme-main-color)',
+                                        color: 'var(--black-text-color)',
+                                        border: '1.5px solid var(--blue-theme-main-color)',
                                         boxShadow: 'none'
                                     }}
                                     icon={<MdWork />}
                                     iconStyle={{
-                                        background: '#181818',
-                                        color: 'var(--yellow-theme-main-color)'
+                                        boxShadow:'0 0 0 4px #2770CC,inset 0 1px 0 rgba(0,0,0,.3),0 0 10px 5px rgba(0,0,0,.3)',
+                                        background: '#EBF5FE',
+                                        color: 'var(--blue-theme-main-color)'
                                     }}
                                     contentArrowStyle={{
                                         display: 'none'
