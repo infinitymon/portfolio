@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.scss';
+import { FaLinkedin } from 'react-icons/fa';
 // import { useNavigate } from 'react-router-dom';
-// import { Animate } from 'react-simple-animate';
+import { Animate } from 'react-simple-animate';
 
 const Home = () => {
 
@@ -20,7 +21,7 @@ const Home = () => {
                     A Front-end Developer
                 </h1>
             </div>
-            {/* <Animate
+            <Animate
             play
             duration={1.5}
             delay={0.5}
@@ -31,10 +32,13 @@ const Home = () => {
                 transform : 'translateX(0px)'
             }}
             >
-                <div className='home_contact-me'>
+                {/* <div className='home_contact-me'>
                     <button onClick={toContact}>Hire Me</button>
-                </div>
-            </Animate> */}
+                </div> */}
+                <a className='home_contact-me' href='https://www.linkedin.com/in/wasif-karim-b25985175/' target='_blank'>
+                    <FaLinkedin size={60} color='var(--blue-theme-main-color)'/>
+                </a>
+            </Animate>
         </section>
     )
 }
