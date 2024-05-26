@@ -20,7 +20,7 @@ const Home = () => {
                     A Front-end Developer
                 </h1>
             </div>
-            <Animate
+            {/* <Animate
             play
             duration={1.5}
             delay={0.5}
@@ -34,7 +34,7 @@ const Home = () => {
                 <div className='home_contact-me'>
                     <button onClick={toContact}>Hire Me</button>
                 </div>
-            </Animate>
+            </Animate> */}
         </section>
     )
 }
