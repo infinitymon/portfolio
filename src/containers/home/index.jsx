@@ -35,7 +35,7 @@ const Home = () => {
                 {/* <div className='home_contact-me'>
                     <button onClick={toContact}>Hire Me</button>
                 </div> */}
-                <a className='home_contact-me' href='https://www.linkedin.com/in/wasif-karim-b25985175/' target='_blank'>
+                <a className='home_contact-me' href='https://www.linkedin.com/in/wasif-karim-b25985175/' target='_blank' rel='noreferrer noopener'>
                     <FaLinkedin size={60} color='var(--blue-theme-main-color)'/>
                 </a>
             </Animate>
