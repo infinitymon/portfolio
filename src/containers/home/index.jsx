@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.scss';
-import { useNavigate } from 'react-router-dom';
-import { Animate } from 'react-simple-animate';
+// import { useNavigate } from 'react-router-dom';
+// import { Animate } from 'react-simple-animate';
 
 const Home = () => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const toContact = () => {
-        navigate('/contact')
-    }
+    // const toContact = () => {
+    //     navigate('/contact')
+    // }
 
     return (
         <section id='home' className='home'>
