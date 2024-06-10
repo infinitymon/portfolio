@@ -1,6 +1,9 @@
 import React from 'react';
 import PageHeader from '../../components/pageHeader';
 import { BsInfoCircleFill } from 'react-icons/bs';
+import { FaSlack, FaTrello, FaFigma, FaUnity } from 'react-icons/fa';
+import { SiAdobephotoshop, SiAutodeskmaya } from 'react-icons/si';
+import { VscVscodeInsiders } from "react-icons/vsc";
 import skillData from './utils';
 import { Animate, AnimateKeyframes } from 'react-simple-animate';
 import { Line } from 'rc-progress';
@@ -56,6 +59,20 @@ const Skills = () => {
                         </div>
                     ))
                 }
+            </div>
+            <div className='skills_toolkit'>
+                <div className='skills_toolkit_content'>
+                    <h3 className='skills_toolkit_content_header'>ToolKit</h3>
+                    <div className='skills_toolkit_content_icons'>
+                        <FaSlack size={60} color='var(--blue-theme-main-color)' />
+                        <FaTrello size={60} color='var(--blue-theme-main-color)' />
+                        <FaUnity size={60} color='var(--blue-theme-main-color)' />
+                        <FaFigma size={60} color='var(--blue-theme-main-color)' />
+                        <SiAdobephotoshop size={60} color='var(--blue-theme-main-color)' />
+                        <SiAutodeskmaya size={60} color='var(--blue-theme-main-color)' />
+                        <VscVscodeInsiders size={60} color='var(--blue-theme-main-color)' />
+                    </div>
+                </div>
             </div>
         </section>
     )

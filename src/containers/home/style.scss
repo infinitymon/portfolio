@@ -1,4 +1,4 @@
-.home{
+.home {
     position: relative;
     height: 100%;
     display: flex;
@@ -6,12 +6,12 @@
     align-content: center;
     flex-direction: column;
 
-    &_text-wrapper{
+    &_text-wrapper {
         display: flex;
         justify-content: center;
         width: 100%;
 
-        h1{
+        h1 {
             color: var(--blue-theme-main-color);
             margin: 0px;
             display: flex;
@@ -26,14 +26,15 @@
         }
     }
 
-    &_contact-me{
+    &_contact-me {
         display: flex;
         justify-content: center;
         padding: 2rem 0rem;
+        gap: 2rem;
 
-        button{
+        button {
             cursor: pointer;
-            padding: 2rem 8rem ;
+            padding: 2rem 8rem;
             font-size: 2rem;
             font-weight: 600;
             letter-spacing: 1px;
@@ -41,41 +42,47 @@
             color: var(--blue-theme-main-color);
             background: transparent;
             border-radius: 10px;
-            &:hover{
+
+            &:hover {
                 background-color: var(--blue-theme-main-color);
                 color: #EBF5FE;
                 font-weight: 600;
             }
         }
+
+        a{
+            cursor: pointer;
+        }
     }
 }
 
-@media only screen and (max-width: 550px){
-    .home_text-wrapper h1{
+@media only screen and (max-width: 550px) {
+    .home_text-wrapper h1 {
         font-size: 3rem;
         line-height: 4rem;
     }
 }
 
-@media only screen and (min-width:551px) and (max-width: 768px){
-    .home_text-wrapper h1{
+@media only screen and (min-width:551px) and (max-width: 768px) {
+    .home_text-wrapper h1 {
         font-size: 4.5rem;
         line-height: 6rem;
     }
 }
 
-@media only screen and (min-width:769px) and (max-width: 990px){
-    .home_text-wrapper h1{
+@media only screen and (min-width:769px) and (max-width: 990px) {
+    .home_text-wrapper h1 {
         font-size: 6rem;
         line-height: 8rem;
     }
 }
 
-@keyframes typingEffect{
-    from{
+@keyframes typingEffect {
+    from {
         width: 0%;
     }
-    to{
+
+    to {
         width: 100%;
-    }   
+    }
 }

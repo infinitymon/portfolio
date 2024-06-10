@@ -6,47 +6,63 @@ const skillData = [
             percentage: "90"
         },
         {
-            skillName: "HTML",
-            percentage: "40"
+            skillName: "CSS",
+            percentage: "75"
         },
         {
-            skillName: "HTML",
-            percentage: "60"
+            skillName: "React.js",
+            percentage: "75"
         }
         ]
     },
     {
         label: "Back End",
         data: [{
-            skillName: "HTML",
+            skillName: "Mongoose.js",
             percentage: "50"
         },
         {
-            skillName: "HTML",
-            percentage: "60"
+            skillName: "Express.js",
+            percentage: "50"
         },
         {
-            skillName: "HTML",
-            percentage: "70"
+            skillName: "Node.js",
+            percentage: "75"
         }
         ]
     },
     {
         label: "DataBases",
         data: [{
-            skillName: "HTML",
-            percentage: "60"
+            skillName: "MongoDB",
+            percentage: "75"
         },
         {
-            skillName: "HTML",
-            percentage: "60"
+            skillName: "MySQL",
+            percentage: "50"
         },
-        {
-            skillName: "HTML",
-            percentage: "60"
-        }
         ]
     },
+    {
+        label: "Languages",
+        data: [{
+            skillName: "C#",
+            percentage: "90"
+        },
+        {
+            skillName: "Java",
+            percentage: "70"
+        },
+        {
+            skillName: "Javascript",
+            percentage: "80"
+        },
+        {
+            skillName: "Python",
+            percentage: "50"
+        }
+        ]
+    }
 ];
 
 export default skillData;
